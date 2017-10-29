@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C71549C1FA6995D0015E9AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C71549B1FA6995D0015E9AC /* AppDelegate.m */; };
+		2C71549F1FA6995D0015E9AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C71549E1FA6995D0015E9AC /* ViewController.m */; };
+		2C7154A21FA6995D0015E9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A01FA6995D0015E9AC /* Main.storyboard */; };
+		2C7154A51FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C7154A31FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld */; };
+		2C7154A71FA6995D0015E9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A61FA6995D0015E9AC /* Assets.xcassets */; };
+		2C7154AA1FA6995D0015E9AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A81FA6995D0015E9AC /* LaunchScreen.storyboard */; };
+		2C7154AD1FA6995D0015E9AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7154AC1FA6995D0015E9AC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C7154971FA6995D0015E9AC /* TiendaDeZapatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiendaDeZapatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71549A1FA6995D0015E9AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C71549B1FA6995D0015E9AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C71549D1FA6995D0015E9AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C71549E1FA6995D0015E9AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C7154A11FA6995D0015E9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C7154A41FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TiendaDeZapatos.xcdatamodel; sourceTree = "<group>"; };
+		2C7154A61FA6995D0015E9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7154A91FA6995D0015E9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C7154AB1FA6995D0015E9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7154AC1FA6995D0015E9AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7154941FA6995D0015E9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C71548E1FA6995D0015E9AC = {
+			isa = PBXGroup;
+			children = (
+				2C7154991FA6995D0015E9AC /* TiendaDeZapatos */,
+				2C7154981FA6995D0015E9AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7154981FA6995D0015E9AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7154971FA6995D0015E9AC /* TiendaDeZapatos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7154991FA6995D0015E9AC /* TiendaDeZapatos */ = {
+			isa = PBXGroup;
+			children = (
+				2C71549A1FA6995D0015E9AC /* AppDelegate.h */,
+				2C71549B1FA6995D0015E9AC /* AppDelegate.m */,
+				2C71549D1FA6995D0015E9AC /* ViewController.h */,
+				2C71549E1FA6995D0015E9AC /* ViewController.m */,
+				2C7154A01FA6995D0015E9AC /* Main.storyboard */,
+				2C7154A61FA6995D0015E9AC /* Assets.xcassets */,
+				2C7154A81FA6995D0015E9AC /* LaunchScreen.storyboard */,
+				2C7154AB1FA6995D0015E9AC /* Info.plist */,
+				2C7154AC1FA6995D0015E9AC /* main.m */,
+				2C7154A31FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld */,
+			);
+			path = TiendaDeZapatos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7154961FA6995D0015E9AC /* TiendaDeZapatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7154B01FA6995D0015E9AC /* Build configuration list for PBXNativeTarget "TiendaDeZapatos" */;
+			buildPhases = (
+				2C7154931FA6995D0015E9AC /* Sources */,
+				2C7154941FA6995D0015E9AC /* Frameworks */,
+				2C7154951FA6995D0015E9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiendaDeZapatos;
+			productName = TiendaDeZapatos;
+			productReference = 2C7154971FA6995D0015E9AC /* TiendaDeZapatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C71548F1FA6995D0015E9AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wondererApps;
+				TargetAttributes = {
+					2C7154961FA6995D0015E9AC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C7154921FA6995D0015E9AC /* Build configuration list for PBXProject "TiendaDeZapatos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C71548E1FA6995D0015E9AC;
+			productRefGroup = 2C7154981FA6995D0015E9AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7154961FA6995D0015E9AC /* TiendaDeZapatos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7154951FA6995D0015E9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7154AA1FA6995D0015E9AC /* LaunchScreen.storyboard in Resources */,
+				2C7154A71FA6995D0015E9AC /* Assets.xcassets in Resources */,
+				2C7154A21FA6995D0015E9AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7154931FA6995D0015E9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7154A51FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld in Sources */,
+				2C71549F1FA6995D0015E9AC /* ViewController.m in Sources */,
+				2C7154AD1FA6995D0015E9AC /* main.m in Sources */,
+				2C71549C1FA6995D0015E9AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C7154A01FA6995D0015E9AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7154A11FA6995D0015E9AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C7154A81FA6995D0015E9AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7154A91FA6995D0015E9AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C7154AE1FA6995D0015E9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C7154AF1FA6995D0015E9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7154B11FA6995D0015E9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiendaDeZapatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondererApps.TiendaDeZapatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7154B21FA6995D0015E9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiendaDeZapatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondererApps.TiendaDeZapatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7154921FA6995D0015E9AC /* Build configuration list for PBXProject "TiendaDeZapatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7154AE1FA6995D0015E9AC /* Debug */,
+				2C7154AF1FA6995D0015E9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7154B01FA6995D0015E9AC /* Build configuration list for PBXNativeTarget "TiendaDeZapatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7154B11FA6995D0015E9AC /* Debug */,
+				2C7154B21FA6995D0015E9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C7154A31FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C7154A41FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodel */,
+			);
+			currentVersion = 2C7154A41FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodel */;
+			path = TiendaDeZapatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C71548F1FA6995D0015E9AC /* Project object */;
+}
