@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C20669F1FA6A98C00F86D50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C20669E1FA6A98C00F86D50 /* GoogleService-Info.plist */; };
 		2C71549C1FA6995D0015E9AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C71549B1FA6995D0015E9AC /* AppDelegate.m */; };
 		2C71549F1FA6995D0015E9AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C71549E1FA6995D0015E9AC /* ViewController.m */; };
 		2C7154A21FA6995D0015E9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A01FA6995D0015E9AC /* Main.storyboard */; };
@@ -14,9 +15,19 @@
 		2C7154A71FA6995D0015E9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A61FA6995D0015E9AC /* Assets.xcassets */; };
 		2C7154AA1FA6995D0015E9AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7154A81FA6995D0015E9AC /* LaunchScreen.storyboard */; };
 		2C7154AD1FA6995D0015E9AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7154AC1FA6995D0015E9AC /* main.m */; };
+		2C9C99E51FA6BF2F00AB674A /* MenuTiendaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C99E41FA6BF2F00AB674A /* MenuTiendaController.m */; };
+		2C9C99E81FA6C68F00AB674A /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C99E71FA6C68F00AB674A /* CellTableView.m */; };
+		2C9C99EE1FA6C8E700AB674A /* ZOOMPEGASUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C99EA1FA6C8E600AB674A /* ZOOMPEGASUS.png */; };
+		2C9C99EF1FA6C8E700AB674A /* VAPORMAX.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C99EB1FA6C8E600AB674A /* VAPORMAX.png */; };
+		2C9C99F01FA6C8E700AB674A /* ZOOMWILDHORSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C99EC1FA6C8E600AB674A /* ZOOMWILDHORSE.png */; };
+		2C9C99F11FA6C8E700AB674A /* ZOOMFLY.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C99ED1FA6C8E700AB674A /* ZOOMFLY.png */; };
+		E3FC42B45B09D7A7E52D9398 /* libPods-TiendaDeZapatos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 156EB5848BEF924FD10D7873 /* libPods-TiendaDeZapatos.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		137049677A716920CC5FAAFC /* Pods-TiendaDeZapatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeZapatos.debug.xcconfig"; path = "TiendaDeZapatos/Pods/Target Support Files/Pods-TiendaDeZapatos/Pods-TiendaDeZapatos.debug.xcconfig"; sourceTree = "<group>"; };
+		156EB5848BEF924FD10D7873 /* libPods-TiendaDeZapatos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TiendaDeZapatos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20669E1FA6A98C00F86D50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2C7154971FA6995D0015E9AC /* TiendaDeZapatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiendaDeZapatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C71549A1FA6995D0015E9AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C71549B1FA6995D0015E9AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +39,15 @@
 		2C7154A91FA6995D0015E9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C7154AB1FA6995D0015E9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7154AC1FA6995D0015E9AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C9C99E31FA6BF0C00AB674A /* MenuTiendaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTiendaController.h; sourceTree = "<group>"; };
+		2C9C99E41FA6BF2F00AB674A /* MenuTiendaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTiendaController.m; sourceTree = "<group>"; };
+		2C9C99E61FA6C65200AB674A /* CellTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellTableView.h; sourceTree = "<group>"; };
+		2C9C99E71FA6C68F00AB674A /* CellTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTableView.m; sourceTree = "<group>"; };
+		2C9C99EA1FA6C8E600AB674A /* ZOOMPEGASUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZOOMPEGASUS.png; sourceTree = "<group>"; };
+		2C9C99EB1FA6C8E600AB674A /* VAPORMAX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAPORMAX.png; sourceTree = "<group>"; };
+		2C9C99EC1FA6C8E600AB674A /* ZOOMWILDHORSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZOOMWILDHORSE.png; sourceTree = "<group>"; };
+		2C9C99ED1FA6C8E700AB674A /* ZOOMFLY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZOOMFLY.png; sourceTree = "<group>"; };
+		6C2386BAE23D609DA2887628 /* Pods-TiendaDeZapatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiendaDeZapatos.release.xcconfig"; path = "TiendaDeZapatos/Pods/Target Support Files/Pods-TiendaDeZapatos/Pods-TiendaDeZapatos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FC42B45B09D7A7E52D9398 /* libPods-TiendaDeZapatos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +67,8 @@
 			children = (
 				2C7154991FA6995D0015E9AC /* TiendaDeZapatos */,
 				2C7154981FA6995D0015E9AC /* Products */,
+				59EFA47F574D4BB77143E1B7 /* Pods */,
+				57FEEEF3FCBF58031C0FF779 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,18 +83,68 @@
 		2C7154991FA6995D0015E9AC /* TiendaDeZapatos */ = {
 			isa = PBXGroup;
 			children = (
-				2C71549A1FA6995D0015E9AC /* AppDelegate.h */,
-				2C71549B1FA6995D0015E9AC /* AppDelegate.m */,
-				2C71549D1FA6995D0015E9AC /* ViewController.h */,
-				2C71549E1FA6995D0015E9AC /* ViewController.m */,
+				2C9C99E91FA6C8D600AB674A /* imgs */,
+				2C7154B41FA69A760015E9AC /* Main */,
+				2C7154B31FA699D90015E9AC /* Controllers */,
 				2C7154A01FA6995D0015E9AC /* Main.storyboard */,
 				2C7154A61FA6995D0015E9AC /* Assets.xcassets */,
 				2C7154A81FA6995D0015E9AC /* LaunchScreen.storyboard */,
 				2C7154AB1FA6995D0015E9AC /* Info.plist */,
 				2C7154AC1FA6995D0015E9AC /* main.m */,
 				2C7154A31FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld */,
+				2C20669E1FA6A98C00F86D50 /* GoogleService-Info.plist */,
 			);
 			path = TiendaDeZapatos;
+			sourceTree = "<group>";
+		};
+		2C7154B31FA699D90015E9AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C71549E1FA6995D0015E9AC /* ViewController.m */,
+				2C71549D1FA6995D0015E9AC /* ViewController.h */,
+				2C9C99E31FA6BF0C00AB674A /* MenuTiendaController.h */,
+				2C9C99E41FA6BF2F00AB674A /* MenuTiendaController.m */,
+				2C9C99E61FA6C65200AB674A /* CellTableView.h */,
+				2C9C99E71FA6C68F00AB674A /* CellTableView.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C7154B41FA69A760015E9AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C71549B1FA6995D0015E9AC /* AppDelegate.m */,
+				2C71549A1FA6995D0015E9AC /* AppDelegate.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C9C99E91FA6C8D600AB674A /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C99EB1FA6C8E600AB674A /* VAPORMAX.png */,
+				2C9C99ED1FA6C8E700AB674A /* ZOOMFLY.png */,
+				2C9C99EA1FA6C8E600AB674A /* ZOOMPEGASUS.png */,
+				2C9C99EC1FA6C8E600AB674A /* ZOOMWILDHORSE.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		57FEEEF3FCBF58031C0FF779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156EB5848BEF924FD10D7873 /* libPods-TiendaDeZapatos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59EFA47F574D4BB77143E1B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				137049677A716920CC5FAAFC /* Pods-TiendaDeZapatos.debug.xcconfig */,
+				6C2386BAE23D609DA2887628 /* Pods-TiendaDeZapatos.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C7154B01FA6995D0015E9AC /* Build configuration list for PBXNativeTarget "TiendaDeZapatos" */;
 			buildPhases = (
+				95433CB7BAA061227FD1225F /* [CP] Check Pods Manifest.lock */,
 				2C7154931FA6995D0015E9AC /* Sources */,
 				2C7154941FA6995D0015E9AC /* Frameworks */,
 				2C7154951FA6995D0015E9AC /* Resources */,
+				D7A65B5E230F5F7C32ADE598 /* [CP] Embed Pods Frameworks */,
+				04594A2915E8E00750B8829D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +208,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9C99F01FA6C8E700AB674A /* ZOOMWILDHORSE.png in Resources */,
+				2C9C99EE1FA6C8E700AB674A /* ZOOMPEGASUS.png in Resources */,
+				2C9C99EF1FA6C8E700AB674A /* VAPORMAX.png in Resources */,
 				2C7154AA1FA6995D0015E9AC /* LaunchScreen.storyboard in Resources */,
+				2C20669F1FA6A98C00F86D50 /* GoogleService-Info.plist in Resources */,
 				2C7154A71FA6995D0015E9AC /* Assets.xcassets in Resources */,
+				2C9C99F11FA6C8E700AB674A /* ZOOMFLY.png in Resources */,
 				2C7154A21FA6995D0015E9AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04594A2915E8E00750B8829D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/TiendaDeZapatos/Pods/Target Support Files/Pods-TiendaDeZapatos/Pods-TiendaDeZapatos-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/TiendaDeZapatos/Pods/Target Support Files/Pods-TiendaDeZapatos/Pods-TiendaDeZapatos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95433CB7BAA061227FD1225F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiendaDeZapatos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A65B5E230F5F7C32ADE598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/TiendaDeZapatos/Pods/Target Support Files/Pods-TiendaDeZapatos/Pods-TiendaDeZapatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C7154931FA6995D0015E9AC /* Sources */ = {
@@ -148,7 +284,9 @@
 				2C7154A51FA6995D0015E9AC /* TiendaDeZapatos.xcdatamodeld in Sources */,
 				2C71549F1FA6995D0015E9AC /* ViewController.m in Sources */,
 				2C7154AD1FA6995D0015E9AC /* main.m in Sources */,
+				2C9C99E51FA6BF2F00AB674A /* MenuTiendaController.m in Sources */,
 				2C71549C1FA6995D0015E9AC /* AppDelegate.m in Sources */,
+				2C9C99E81FA6C68F00AB674A /* CellTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +418,7 @@
 		};
 		2C7154B11FA6995D0015E9AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137049677A716920CC5FAAFC /* Pods-TiendaDeZapatos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +432,7 @@
 		};
 		2C7154B21FA6995D0015E9AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2386BAE23D609DA2887628 /* Pods-TiendaDeZapatos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
